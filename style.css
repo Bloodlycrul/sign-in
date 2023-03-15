@@ -42,6 +42,15 @@ input:focus {
   margin-bottom: 20px;
 }
 
+.btn{
+  border: none;
+  background-color: black;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+}
 
 /* Mobile Responsive  */
 
