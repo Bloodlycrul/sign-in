@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: linear-gradient(-100deg,#c850c0,#4158d0);
+}
+
+.container{
+    margin: auto;
+    margin-top: 6%;
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image img{
+    margin-left: 80px;
+    perspective: 140px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-bottom: .2px solid lightgray;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
