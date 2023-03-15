@@ -11,11 +11,17 @@ const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 let checker = ()=>{
     let val = email.value;
-    if(!emailRegex.test(val)){
+    let pass = password.value;
+
+    if(!val){
+        console.log("please enter the value");
+    }else if(!pass){
+        console.log("please enter the value");
+    } else if(!emailRegex.test(val)){
         heading.innerText = "Wrong Email Id"
         heading.style.color = 'red'
     }else if(emailRegex.test(val)){
-        heading.innerText = "login"
+        heading.innerText = "Login"
         heading.style.color = 'green'
     }
 }
