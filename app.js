@@ -4,6 +4,7 @@ const btn = document.getElementById("button");
 const heading = document.getElementById("heading");
 const login = document.getElementById('login')
 
+let array34 = [];
 
 
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -24,6 +25,13 @@ let checker = ()=>{
         heading.innerText = "Login"
         heading.style.color = 'green'
     }
+  let arr = {
+    email:email.value,
+    password : password.value
+  }
+  
+  array34.push(arr)
+  console.log(array34);
 }
 
 
