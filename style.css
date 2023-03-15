@@ -36,3 +36,47 @@ input{
 textarea:focus, input:focus{
     outline: none;
 }
+
+@media (max-width:640px){
+    body{
+        width: auto;
+    }
+
+    .container{
+        margin: auto;
+        margin-top: 25%;
+        width: 400px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .image img{
+        width: 300px;
+        margin: auto;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+
+    .form{
+        width: 350px;
+    }
+
+
+    input{
+        width: 100%;
+        padding: 10px;
+        margin: 10px 30px;
+        border: none;
+        border-bottom: .2px solid lightgray;
+    }
+
+    #heading{
+        text-align: center;
+        width: auto;
+    }
+
+}
