@@ -14,9 +14,9 @@ let checker = ()=>{
     let pass = password.value;
 
     if(!val){
-        console.log("please enter the value");
+        console.log("please enter the Email Id");
     }else if(!pass){
-        console.log("please enter the value");
+        console.log("please enter the Password");
     } else if(!emailRegex.test(val)){
         heading.innerText = "Wrong Email Id"
         heading.style.color = 'red'

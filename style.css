@@ -38,6 +38,10 @@ input:focus {
   outline: none;
 }
 
+#heading{
+  margin-bottom: 20px;
+}
+
 
 /* Mobile Responsive  */
 
@@ -71,7 +75,7 @@ input:focus {
   input {
     width: 100%;
     padding: 10px;
-    margin: 10px 30px;
+    margin: 30px 30px;
     border: none;
     border-bottom: 0.2px solid lightgray;
   }
